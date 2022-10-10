@@ -1,53 +1,28 @@
-<!DOCTYPE html>
-
-
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
 <head>
-  <title>Munir Hiabu</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-grey.css">
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 
-<style>
-h1 {text-align: center;}
-</style>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css">
 
- <style>
-  div.round img {
-  border-radius: 50%;
-}
-</style>
+
+
+<script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
+ <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const player = Plyr.setup('.js-player');
+      });
+</script>
+
 
  <style>
 .image1 {
-    width: 40% !important;
+    width: 100px !important;
     height: auto !important;
 }
 </style>
 
-
-<style>
-
-
-<style>
-
-figcaption {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 12px;
-  text-shadow: none;
-  color: black;
-  text-align: center;
-  height: auto;
-}
-</style>
 
 
 <style>
@@ -68,7 +43,32 @@ html {
 }
 </style>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>OWARS</title>
+<!--  <link rel="stylesheet" href="/Steely.css" type="text/css"> -->
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+</style>
+
+  <style>
+  div.round img {
+  border-radius: 50%;
+}
+</style>
 
 
 
@@ -97,159 +97,101 @@ td.misc {
 }
 
 
-table.table1 tr:nth-child(even) {background-color:#fca311;}
+table.table1 tr:nth-child(even) {background-color: Lavender;}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+
+hr {color: DarkCyan;}
+h1 {color: DarkCyan;}
+
+body {
+  background-color: White;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Didact Gothic', 'Bahnschrift Light',sans-serif;
+  color:DarkCyan;
+
+}
 
 
-</style>
+
+body {
+  background-color: #dad7cd;
+}
 
 
+div.heading {
+  border-left-style: solid;
+  border-left-color: DarkCyan;
+  border-left-width: medium;
 
-<style>
-a:link {
-  color: #901a1e;
-  background-color: transparent;
+}
+h2 {margin: 10px;}
+
+a:hover {color: LightBlue;}
+a {
+  color: DarkCyan;
   text-decoration: none;
 }
-a:visited {
-  color: #901a1e;
-  background-color: transparent;
+</style>
+
+
+<style>
+div.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #344e41;
+}
+
+div.navbar li {
+  float: left;
+}
+
+div.navbar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: #901a1e;
-  background-color: transparent;
-  text-decoration: underline;
-}
-</style>
 
-
-<style>
-.filterDiv {
-
-  display: none;
-}
-
-.show {
-  display: inline-block;
-}
-
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-  outline-color:  #e85338;
+div.navbar li a:hover {
+  background-color: #111;
 }
 </style>
 
 
 
-<style>
-.filterDiv2 {
-
-  display: none;
-}
-
-.show {
-  display: inline-block;
-}
-
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 4px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-}
-
-.btn2 {
-  border: none;
-  outline: none;
-  padding: 1px 10px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-  outline-color:  #e85338;
-}
-</style>
 
 <style>
-.center {
-  text-align: center
+body {
+	margin: 0;
 }
-</style>
 
+.plyr {
+height: 100%;
+}
 
-
-<style>
-.img1 {
-  float: right;
+#wrapper{
+  justify-content:center;
+  width:100%;
+  height: 250px;
+  background-color: green;
 }
 </style>
 
 </head>
 
-<body>
 
 
-<br>
-<h1>Aarhus-Copenhagen Data Science Meeting 2022</h1>
-<h1>15 December 2022</h1>
-
-
-<br>
-<br>
-
-<!-- Navigation -->
- 
-    <nav class="navbar navbar-inverse">
-
-    <div class="container">
-
-		<ul class="nav navbar-nav" style="float: left;">
-	
-           
-             <li>  <span style="display:inline-block; width: 1px;"></span></li>
-           
-            <li><a href="#speakers">Speakers</a></li>
-            <li><a href="#schedule">Schedule</a></li>
-                        <li><a href="#venue">Venue</a></li>
-  <li><a class="active" href="#organizers">Organizers</a></li>
-  <li><a href="#sponsors">Sponsors</a></li>
-
- 		</ul>
-	  </div>
-	  </nav>
-	
-
-  
 
 
 <script>
@@ -290,180 +232,60 @@ var x = setInterval(function() {
 }, 1000);
  
 </script>
+
+
+
+
+
+<body>
+
 <br>
-<br>
+<h1>Aarhus-Copenhagen Data Science Meeting 2022</h1>
+<h2>15 December 2022</h2>
+<h2><p style="display:inline;font-size: 14px;color: blue" id="demo"></p></h2>
+  <div class="navbar">
+
+
+
+
+<ul>
+      <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#venue">Venue</a></li>
+  <li><a class="active" href="#organizers">Organizers</a></li>
+  <li><a href="#sponsors">Sponsors</a></li>
+</ul>
+</div>
+
+
+<hr>
+
+<!-- change of mode (announce speaker/watch recording) from here. -->
+
+
+
 
 <div class="row row-grid">
-    <div class="col-md-3">
-      </div>
-
-  <div class="col-md-4">
-
+<div class="col-md-7">
 This meeting will bring together senior and early career data science researchers from Aarhus University and University of Copenahgen. Both groups are internationally renowned for their strong research profile in data science, each having their own focus areas. The core of the workshop are scientific presentations and informal discussions with the aim of fostering new collaborations between both groups. 
 </div>
 </div>
 
 <hr>
-<div class="heading">
-  <h2 style="clear:left" >
-
-</h2>
-</div>
-
-     
-<div class="heading" id="speakers">
-  <h3 style="clear:left" >Speakers</h3>
-</div>
-
 <br>
-<br>
-<br>
-<br>
-<div class="row row-grid">
-  
-  <div class="col-md-1">
-</div>
-<div class="col-md-4">
-<div class="round" style="font-size:120%">
-     <figure>
-<img class="image1" src="thomas.jpeg" alt="Avatar" height="120" align='left' border-radius= "50%" >
-             <figcaption> .</figcaption>
-                </figure>
-
-<br>
-<a href="http://web.math.ku.dk/~mikosch/" target="_blank"> Thomas Mikosch (University of Copenhagen)
-</a>
-</div>
-
-
-
-Dr. Mikosch is a Professor at the Department. He got his Master degree in Mathematics at TU Dresden (1981), defended his PhD in Probability Theory at St. Petersburg University (1984), his Habilitation at TU Dresden (1990). Before he joined the Department on January 1, 2001, he worked at TU Dresden, ETH Zürich, ISOR Wellington, RUG Groningen.
- </div>
- 
- 
-<div class="col-md-1">
-   </div>
-
-  
-  
-  
-<div class="col-md-3">
-  <div class="round" style="font-size:120%">
-<img class="image1" src="asger.jpg" alt="Avatar"   max-width: "40px"; align='left' border-radius= "50%" >
-<br>
-<a href="https://pure.au.dk/portal/en/persons/asger-hobolth(8d387f4e-86e9-4405-a50d-1e5a6efd97d8).html" target="_blank"> Asger Hobolth (Aarhus University)
-</a>
-
-</div>
-Asger Hobolth is currently Professor in Data Science in the Department of Mathematics at Aarhus University. He received his PhD in Theoretical Statistics from Aarhus University in 2002. His research interests include computational statistics, genomics and high-dimensional statistics amongst others. He is the Principal Investigator on a Grant from Vienna Science and Technology on Genome-wide molecular dating.
-</div>
-</div>
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-<div class="row row-grid">
-  <div class="col-md-2">
-</div>
-<div class="col-md-4">
-<div class="round" style="font-size:120%">
-<img class="image1" src="niklas.jpg" alt="Avatar" height="120" align='left' border-radius= "50%" >
-<br>
-<a href="https://niklaspfister.github.io/" target="_blank"> Niklas Pfister (University of Copenhagen)
-</a>
-</div>
-
-My research focuses on statistical methodology for complex data structures. Developing statistical tools that help us understand underlying causal mechanisms is becoming more important as our data collection capabilities increase. Much of my work uses some notion of causality and stability to model and infer parts of such mechanisms using data.
-Statistical methodology should be driven by applied problems which I try to reflect in my approach to research.
-</div>
-
-
-<div class="col-md-1">
-</div>
-<div class="col-md-4">
-  <div class="round" style="font-size:120%">
-<img class="image1"  src="andreas.jpeg" alt="Avatar" height="120" align='left' border-radius= "50%" >
-<br>
-<a href="https://sites.google.com/site/basseoconnor/" target="_blank"> Andreas Basse-O'Connor (Aarhus University)
-</a>
-</div>
-I am a Professor of Stochastics at the Department of Mathematics, Aarhus University, Denmark. My research interests are probability theory and in particular stochastic processes.
-</div>
-</div>
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<div class="row row-grid">
-  <div class="col-md-4">
-</div>
-
-  <div class="col-md-4">
-
-<div class="round" style="font-size:120%">
-<img class="image1" src="Dmytro.jpeg" alt="Avatar" height="120" align='left' border-radius= "50%" >
-<br>
-<a href="https://www.math.ku.dk/ansatte/?pure=da/persons/714738" target="_blank">Dmytro Marushkevych (University of Copenhagen)
-</a>
-</div>
-</div>
-</div>
-<br>
-<br>
-
-
-
-
-
-
-
-
-
-  <!-- End of change of mode here. -->
-
-<br>
-<br>
-<br>
-<br>
-
 
 <div  class="heading" id="schedule">
 
-<H2 STYLE="clear:left">Schedule</H2>
+<H3 STYLE="clear:left">Schedule</H3>
 </div>
 
-
-
-
-<script type="text/javascript">
-
-// Change the second argument to your options:
-// https://github.com/sampotts/plyr/#options
-const player = new Plyr('video', {captions: {active: true}});
-
-// Expose player so it can be used from the console
-window.player = player;
-</script>
 
 <script type="text/javascript"> document.write("Last updated: " + document.lastModified);</script>
 
 <table style="width:100%" class="table1">
 
   <tr>
-    <th>Date & Time</th>
+    <th>Time</th>
     <th>Speaker</th>
     <th>Title</th>
     <th>Misc</th>
@@ -477,11 +299,14 @@ window.player = player;
         
         </td>
         
-        <td class = "speaker"></td>
+        <td class = "speaker"</td>
         <td class = "title">
-      </td>
-        <td>
       
+      <br> <details>
+        <summary>Abstract (click to expand)</summary>
+      </details></td>
+        <td>
+        
         </td>
         </tr>   
         
@@ -494,12 +319,115 @@ window.player = player;
 
 <br>
 
+     
+<div class="heading" id="speakers">
+  <h3 style="clear:left" >Speakers</h2>
+</div>
+
+<br>
+
+
+
+<div class="round">
+
+
+<div class="row row-grid">
+  
+  
+<div class="col-md-3">
+     <figure>
+<img class="image1" src="thomas.jpeg" alt="Avatar" height="120" align='left' border-radius= "50%" >
+             <figcaption> <a href="http://web.math.ku.dk/~mikosch/" target="_blank"> 
+Thomas Mikosch (University of Copenhagen)</a></figcaption>
+                </figure>
+
+<p font-size=0.5em>
+Dr. Mikosch is a Professor at the Department. He got his Master degree in Mathematics at TU Dresden (1981), defended his PhD in Probability Theory at St. Petersburg University (1984), his Habilitation at TU Dresden (1990). Before he joined the Department on January 1, 2001, he worked at TU Dresden, ETH Zürich, ISOR Wellington, RUG Groningen.
+</p>
+ </div>
+ 
+ 
+<div class="col-md-3">
+    <figure>
+<img class="image1" src="asger.jpg" alt="Avatar" height="130" align='left' border-radius= "50%" >
+             <figcaption> <a href="https://pure.au.dk/portal/en/persons/asger-hobolth(8d387f4e-86e9-4405-a50d-1e5a6efd97d8).html" target="_blank"> Asger Hobolth (Aarhus University)
+</a></figcaption>
+  </figure>
+Asger Hobolth is currently Professor in Data Science in the Department of Mathematics at Aarhus University. He received his PhD in Theoretical Statistics from Aarhus University in 2002. His research interests include computational statistics, genomics and high-dimensional statistics amongst others. He is the Principal Investigator on a Grant from Vienna Science and Technology on Genome-wide molecular dating.
+</div>
+
+</div>
+</div>
+
+
+
+<br>
+
+<div class="round">
+<div class="row row-grid">
+  
+<div class="col-md-3"> 
+  <figure>
+<img class="image1" src="niklas.jpg" alt="Avatar" height="120" align='left' border-radius= "50%" >
+    <figcaption><a href="https://niklaspfister.github.io/" target="_blank"> Niklas Pfister (University of Copenhagen)
+</a></figcaption>
+  </figure>
+My research focuses on statistical methodology for complex data structures. Developing statistical tools that help us understand underlying causal mechanisms is becoming more important as our data collection capabilities increase. Much of my work uses some notion of causality and stability to model and infer parts of such mechanisms using data.
+Statistical methodology should be driven by applied problems which I try to reflect in my approach to research.
+</div>
+
+
+<div class="col-md-3">
+<figure>
+<img class="image1" src="andreas.jpeg" alt="Avatar" height="120" align='left' border-radius= "50%" >
+   <figcaption><a href="https://niklaspfister.github.io/" target="_blank"><a href="https://sites.google.com/site/basseoconnor/" target="_blank"> Andreas Basse-O'Connor (Aarhus University)
+</a></figcaption>
+  </figure>
+  I am a Professor of Stochastics at the Department of Mathematics, Aarhus University, Denmark. My research interests are probability theory and in particular stochastic processes.
+</div>
+
+</div>
+</div>
+
+
+<br>
+
+<div class="round">
+  <div class="row row-grid">
+  
+<div class="col-md-3"> 
+  <figure>
+<img class="image1" src="Dmytro.jpeg" alt="Avatar" height="120" align='left' border-radius= "50%" >
+ <figcaption><a href="https://www.math.ku.dk/ansatte/?pure=da/persons/714738" target="_blank">Dmytro Marushkevych (University of Copenhagen)
+</a></figcaption>
+  </figure>
+
+</div>
+</div>
+</div>
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br>
 <p></p><hr><p id="organizers">
 
-</p><h2>Organizers</h3>
+</p><h3>Organizers</h3>
 <l>
 <li><a href="https://pure.au.dk/portal/en/persons/claudia-strauch(308d395d-3852-4c0d-8261-bbcf26921ce7).html" target="_blank">Claudia Strauch</a> (Aarhus University)</li>
 <li><a href="https://jalonsogarcia.weebly.com/" target="_blank">Lukas Trottner</a> (Aarhus University)</li>
