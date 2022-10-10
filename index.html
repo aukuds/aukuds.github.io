@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <title>Munir Hiabu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-grey.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+<style>
+h1 {text-align: center;}
+</style>
+
+ <style>
+  div.round img {
+  border-radius: 50%;
+}
+</style>
+
+ <style>
+.image1 {
+    width: 40% !important;
+    height: auto !important;
+}
+</style>
+
+
+<style>
+
+
+<style>
+
+figcaption {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  text-shadow: none;
+  color: black;
+  text-align: center;
+  height: auto;
+}
+</style>
+
+
+<style>
+html {
+  font-size: 14px;
+}
+</style>
+
+<style>
+html {
+  margin: 20px;
+}
+</style>
+
+<style>
+html {
+  margin-left: 40px;
+}
+</style>
+
+
+
+
+
+<style>
+head {
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+td.date {
+  width: 250px;
+}
+td.speaker {
+  width: 200px;
+}
+td.title {
+  width: 300px;
+}
+td.misc {
+  width: 550px;
+}
+
+
+table.table1 tr:nth-child(even) {background-color:#fca311;}
+
+
+</style>
+
+
+
+<style>
+a:link {
+  color: #901a1e;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #901a1e;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #901a1e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+
+<style>
+.filterDiv {
+
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+  outline-color:  #e85338;
+}
+</style>
+
+
+
+<style>
+.filterDiv2 {
+
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 4px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn2 {
+  border: none;
+  outline: none;
+  padding: 1px 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+  outline-color:  #e85338;
+}
+</style>
+
+<style>
+.center {
+  text-align: center
+}
+</style>
+
+
+
+<style>
+.img1 {
+  float: right;
+}
+</style>
+
+</head>
+
+<body>
+
+
+<br>
+<h1>Aarhus-Copenhagen Data Science Meeting 2022</h1>
+<h1>15 December 2022</h1>
+
+
+<br>
+<br>
+
+<!-- Navigation -->
+ 
+    <nav class="navbar navbar-inverse">
+
+    <div class="container">
+
+		<ul class="nav navbar-nav" style="float: left;">
+	
+           
+             <li>  <span style="display:inline-block; width: 1px;"></span></li>
+           
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#venue">Venue</a></li>
+  <li><a class="active" href="#organizers">Organizers</a></li>
+  <li><a href="#sponsors">Sponsors</a></li>
+
+ 		</ul>
+	  </div>
+	  </nav>
+	
+
+  
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("2022-12-15T10:00:00Z").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var weeks = Math.floor(distance / (1000 * 60 * 60 * 24*7));
+  var days = Math.floor(distance % (1000 * 60 * 60 * 24*7) / (1000 * 60 * 60*24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+ 
+  if (weeks > 0) {
+  document.getElementById("demo").innerHTML = weeks + " week(s) " + days + " day(s) " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  }else if (weeks == 0 & distance>0) {
+    document.getElementById("demo").innerHTML =  days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  } else if (distance <= 0 & distance >= - (1000 * 60 * 60)) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Talk RUNNING";
+  } else if (distance <  (-1000 * 60 * 60)) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  };
+}, 1000);
+ 
+</script>
+<br>
+<br>
+
+<div class="row row-grid">
+    <div class="col-md-3">
+      </div>
+
+  <div class="col-md-4">
+
+This meeting will bring together senior and early career data science researchers from Aarhus University and University of Copenahgen. Both groups are internationally renowned for their strong research profile in data science, each having their own focus areas. The core of the workshop are scientific presentations and informal discussions with the aim of fostering new collaborations between both groups. 
+</div>
+</div>
+
+<hr>
+<div class="heading">
+  <h2 style="clear:left" >
+
+</h2>
+</div>
+
+     
+<div class="heading" id="speakers">
+  <h3 style="clear:left" >Speakers</h3>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<div class="row row-grid">
+  
+  <div class="col-md-1">
+</div>
+<div class="col-md-4">
+<div class="round" style="font-size:120%">
+     <figure>
+<img class="image1" src="thomas.jpeg" alt="Avatar" height="120" align='left' border-radius= "50%" >
+             <figcaption> .</figcaption>
+                </figure>
+
+<br>
+<a href="http://web.math.ku.dk/~mikosch/" target="_blank"> Thomas Mikosch (University of Copenhagen)
+</a>
+</div>
+
+
+
+Dr. Mikosch is a Professor at the Department. He got his Master degree in Mathematics at TU Dresden (1981), defended his PhD in Probability Theory at St. Petersburg University (1984), his Habilitation at TU Dresden (1990). Before he joined the Department on January 1, 2001, he worked at TU Dresden, ETH Zürich, ISOR Wellington, RUG Groningen.
+ </div>
+ 
+ 
+<div class="col-md-1">
+   </div>
+
+  
+  
+  
+<div class="col-md-3">
+  <div class="round" style="font-size:120%">
+<img class="image1" src="asger.jpg" alt="Avatar"   max-width: "40px"; align='left' border-radius= "50%" >
+<br>
+<a href="https://pure.au.dk/portal/en/persons/asger-hobolth(8d387f4e-86e9-4405-a50d-1e5a6efd97d8).html" target="_blank"> Asger Hobolth (Aarhus University)
+</a>
+
+</div>
+Asger Hobolth is currently Professor in Data Science in the Department of Mathematics at Aarhus University. He received his PhD in Theoretical Statistics from Aarhus University in 2002. His research interests include computational statistics, genomics and high-dimensional statistics amongst others. He is the Principal Investigator on a Grant from Vienna Science and Technology on Genome-wide molecular dating.
+</div>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="row row-grid">
+  <div class="col-md-2">
+</div>
+<div class="col-md-4">
+<div class="round" style="font-size:120%">
+<img class="image1" src="niklas.jpg" alt="Avatar" height="120" align='left' border-radius= "50%" >
+<br>
+<a href="https://niklaspfister.github.io/" target="_blank"> Niklas Pfister (University of Copenhagen)
+</a>
+</div>
+
+My research focuses on statistical methodology for complex data structures. Developing statistical tools that help us understand underlying causal mechanisms is becoming more important as our data collection capabilities increase. Much of my work uses some notion of causality and stability to model and infer parts of such mechanisms using data.
+Statistical methodology should be driven by applied problems which I try to reflect in my approach to research.
+</div>
+
+
+<div class="col-md-1">
+</div>
+<div class="col-md-4">
+  <div class="round" style="font-size:120%">
+<img class="image1"  src="andreas.jpeg" alt="Avatar" height="120" align='left' border-radius= "50%" >
+<br>
+<a href="https://sites.google.com/site/basseoconnor/" target="_blank"> Andreas Basse-O'Connor (Aarhus University)
+</a>
+</div>
+I am a Professor of Stochastics at the Department of Mathematics, Aarhus University, Denmark. My research interests are probability theory and in particular stochastic processes.
+</div>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="row row-grid">
+  <div class="col-md-4">
+</div>
+
+  <div class="col-md-4">
+
+<div class="round" style="font-size:120%">
+<img class="image1" src="Dmytro.jpeg" alt="Avatar" height="120" align='left' border-radius= "50%" >
+<br>
+<a href="https://www.math.ku.dk/ansatte/?pure=da/persons/714738" target="_blank">Dmytro Marushkevych (University of Copenhagen)
+</a>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+  <!-- End of change of mode here. -->
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div  class="heading" id="schedule">
+
+<H2 STYLE="clear:left">Schedule</H2>
+</div>
+
+
+
+
+<script type="text/javascript">
+
+// Change the second argument to your options:
+// https://github.com/sampotts/plyr/#options
+const player = new Plyr('video', {captions: {active: true}});
+
+// Expose player so it can be used from the console
+window.player = player;
+</script>
+
+<script type="text/javascript"> document.write("Last updated: " + document.lastModified);</script>
+
+<table style="width:100%" class="table1">
+
+  <tr>
+    <th>Date & Time</th>
+    <th>Speaker</th>
+    <th>Title</th>
+    <th>Misc</th>
+  </tr>
+
+     
+        
+      
+    <tr>
+  <td class = "date">
+        
+        </td>
+        
+        <td class = "speaker"></td>
+        <td class = "title">
+      </td>
+        <td>
+      
+        </td>
+        </tr>   
+        
+
+        
+ 
+</tbody>
+
+</table>
+
+<br>
+
+
+
+<br>
+<p></p><hr><p id="organizers">
+
+</p><h2>Organizers</h3>
+<l>
+<li><a href="https://pure.au.dk/portal/en/persons/claudia-strauch(308d395d-3852-4c0d-8261-bbcf26921ce7).html" target="_blank">Claudia Strauch</a> (Aarhus University)</li>
+<li><a href="https://jalonsogarcia.weebly.com/" target="_blank">Lukas Trottner</a> (Aarhus University)</li>
+<li><a href="https://pure.au.dk/portal/da/persons/lukas-trottner(f0260a26-e9f2-4d0d-8289-c2a0ac9157dc).html" target="_blank">Munir Hiabu</a> (University of Copenhagen)</li>
+</li>
+</l>
+
+
+
+
+</body>
+</html>
