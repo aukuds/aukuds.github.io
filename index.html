@@ -8,14 +8,6 @@
 
 
 
-<script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
- <script>
-      document.addEventListener('DOMContentLoaded', () => {
-          const player = Plyr.setup('.js-player');
-      });
-</script>
-
-
  <style>
 .image1 {
     width: 100px !important;
@@ -64,13 +56,34 @@ html {
 
 </style>
 
-  <style>
+<style>
   div.round img {
   border-radius: 50%;
 }
 </style>
 
 
+<style>
+a:link {
+  color: #588157;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#588157;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+}
+</style>
 
 <style>
 head {
@@ -97,7 +110,7 @@ td.misc {
 }
 
 
-table.table1 tr:nth-child(even) {background-color: Lavender;}
+table.table1 tr:nth-child(even) {background-color: #a3b18a;}
 
 img {
   display: block;
@@ -109,37 +122,33 @@ h1 {text-align: center;}
 h2 {text-align: center;}
 
 hr {color: DarkCyan;}
-h1 {color: DarkCyan;}
-
-body {
-  background-color: White;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-family: 'Didact Gothic', 'Bahnschrift Light',sans-serif;
-  color:DarkCyan;
-
-}
+h1 {color: #588157;}
+h2 {color: #588157;}
+h3 {color: #588157;}
 
 
 
 body {
   background-color: #dad7cd;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Didact Gothic', 'Bahnschrift Light',sans-serif;
+  color: #344e41;
+
 }
+
+
+
 
 
 div.heading {
   border-left-style: solid;
-  border-left-color: DarkCyan;
+  border-left-color: #588157;
   border-left-width: medium;
 
 }
 h2 {margin: 10px;}
 
-a:hover {color: LightBlue;}
-a {
-  color: DarkCyan;
-  text-decoration: none;
-}
 </style>
 
 
@@ -164,7 +173,7 @@ div.navbar li a {
 }
 
 div.navbar li a:hover {
-  background-color: #111;
+  background-color: #a3b18a;
 }
 </style>
 
@@ -196,7 +205,7 @@ height: 100%;
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("2022-12-15T10:00:00Z").getTime();
+var countDownDate = new Date("2022-12-15T08:15:00Z").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -242,7 +251,7 @@ var x = setInterval(function() {
 <br>
 <h1>Aarhus-Copenhagen Data Science Meeting 2022</h1>
 <h2>15 December 2022</h2>
-<h2><p style="display:inline;font-size: 14px;color: blue" id="demo"></p></h2>
+<h2><p style="display:inline;font-size: 14px;color: #344e41" id="demo"></p></h2>
   <div class="navbar">
 
 
@@ -253,7 +262,6 @@ var x = setInterval(function() {
             <li><a href="#schedule">Schedule</a></li>
                         <li><a href="#venue">Venue</a></li>
   <li><a class="active" href="#organizers">Organizers</a></li>
-  <li><a href="#sponsors">Sponsors</a></li>
 </ul>
 </div>
 
@@ -266,21 +274,32 @@ var x = setInterval(function() {
 
 
 <div class="row row-grid">
-<div class="col-md-7">
-This meeting will bring together senior and early career data science researchers from Aarhus University and University of Copenahgen. Both groups are internationally renowned for their strong research profile in data science, each having their own focus areas. The core of the workshop are scientific presentations and informal discussions with the aim of fostering new collaborations between both groups. 
+<div class="col-md-6">
+This meeting will bring together senior and early career data science researchers from Aarhus University and University of Copenahgen. Both groups are internationally renowned for their strong research profile in data science, each having their own focus areas. The core of the workshop are scientific presentations and informal discussions with the aim of fostering exchange between both groups. 
 </div>
 </div>
 
 <hr>
 <br>
 
-<div  class="heading" id="schedule">
 
+
+<div  class="heading" id="venue">
+
+<H3 STYLE="clear:left">Venue</H3>
+</div>    
+  Aarhus University:  <a href="https://www.au.dk/om/organisation/find-au/bygningskort/"> Aud. G2 (1532-122)</a>
+ 
+ <br>
+ <br>
+ 
+ 
+<div  class="heading" id="schedule">
 <H3 STYLE="clear:left">Schedule</H3>
 </div>
+  <h5>Start: 9:15   End: 17:00
+</h5>
 
-
-<script type="text/javascript"> document.write("Last updated: " + document.lastModified);</script>
 
 <table style="width:100%" class="table1">
 
@@ -302,9 +321,7 @@ This meeting will bring together senior and early career data science researcher
         <td class = "speaker"</td>
         <td class = "title">
       
-      <br> <details>
-        <summary>Abstract (click to expand)</summary>
-      </details></td>
+      <br>TBA</td>
         <td>
         
         </td>
@@ -316,10 +333,13 @@ This meeting will bring together senior and early career data science researcher
 </tbody>
 
 </table>
+<script type="text/javascript"> document.write("Last updated: " + document.lastModified);</script>
 
 <br>
 
-     
+    
+    
+
 <div class="heading" id="speakers">
   <h3 style="clear:left" >Speakers</h2>
 </div>
@@ -353,7 +373,7 @@ Dr. Mikosch is a Professor at the Department. He got his Master degree in Mathem
              <figcaption> <a href="https://pure.au.dk/portal/en/persons/asger-hobolth(8d387f4e-86e9-4405-a50d-1e5a6efd97d8).html" target="_blank"> Asger Hobolth (Aarhus University)
 </a></figcaption>
   </figure>
-Asger Hobolth is currently Professor in Data Science in the Department of Mathematics at Aarhus University. He received his PhD in Theoretical Statistics from Aarhus University in 2002. His research interests include computational statistics, genomics and high-dimensional statistics amongst others. He is the Principal Investigator on a Grant from Vienna Science and Technology on Genome-wide molecular dating.
+Asger Hobolth is currently Professor in Data Science in the Department of Mathematics at Aarhus University. He received his PhD in Theoretical Statistics from Aarhus University in 2002. His research interests include computational statistics, genomics and high-dimensional statistics amongst others. 
 </div>
 
 </div>
@@ -403,6 +423,14 @@ Statistical methodology should be driven by applied problems which I try to refl
   </figure>
 
 </div>
+
+<div class="col-md-3"> 
+  <figure>
+<img class="image1" src="Foto_Chong.jpg" alt="Avatar" height="120" align='left' border-radius= "50%" >
+ <figcaption>Special Guest: <a href="http://www.columbia.edu/~chc2169/" target="_blank">Carsten Chong (Columbia University)
+</a></figcaption>
+  </figure>
+Starting from Fall 2020, I am an Assistant Professor in the Department of Statistics at Columbia University. Prior to this, I did my PhD at the Technical University of Munich under the supervision of Claudia Klüppelberg and Jean Jacod and spent a couple of years as a postdoc in the group of Robert Dalang at EPFL.
 </div>
 </div>
 
@@ -423,11 +451,17 @@ Statistical methodology should be driven by applied problems which I try to refl
 
 
 
+<hr>
+
+<div  class="heading" id="venue">
+
+<p id="organizers"></p>
+
+<h3 STYLE="clear:left">Organizers</h3>
+</div>
 
 <br>
-<p></p><hr><p id="organizers">
 
-</p><h3>Organizers</h3>
 <l>
 <li><a href="https://pure.au.dk/portal/en/persons/claudia-strauch(308d395d-3852-4c0d-8261-bbcf26921ce7).html" target="_blank">Claudia Strauch</a> (Aarhus University)</li>
 <li><a href="https://jalonsogarcia.weebly.com/" target="_blank">Lukas Trottner</a> (Aarhus University)</li>
